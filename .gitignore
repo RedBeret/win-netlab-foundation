@@ -1,0 +1,17 @@
+.env.local
+configs/lab.config.json
+.venv/
+.coverage
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+.idea/
+.vscode/
+artifacts/*.db
+artifacts/*.json
+artifacts/logs/*.jsonl
+*.pyc
+

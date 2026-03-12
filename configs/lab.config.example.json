@@ -1,0 +1,37 @@
+{
+  "lab_name": "win-netlab-foundation",
+  "operator": "lab-operator",
+  "environment": "local-training",
+  "documentation_ranges": [
+    "192.0.2.0/24",
+    "198.51.100.0/24",
+    "203.0.113.0/24"
+  ],
+  "devices": [
+    {
+      "hostname": "edge-a.lab.example",
+      "role": "edge",
+      "platform": "synthetic-iosxe",
+      "management_ip": "192.0.2.10",
+      "serial": "FTX0000LAB01",
+      "username": "lab-operator"
+    },
+    {
+      "hostname": "core-a.lab.example",
+      "role": "core",
+      "platform": "synthetic-nxos",
+      "management_ip": "198.51.100.20",
+      "serial": "FTX0000LAB02",
+      "username": "lab-operator"
+    },
+    {
+      "hostname": "access-a.lab.example",
+      "role": "access",
+      "platform": "synthetic-eos",
+      "management_ip": "203.0.113.30",
+      "serial": "FTX0000LAB03",
+      "username": "lab-trainee"
+    }
+  ]
+}
+
